@@ -35,14 +35,12 @@ public class Audio extends Media implements Playable{
 
 	@Override
 	public void increaseVolume() {
-		// TODO Auto-generated method stub
-		
+		volume++;
 	}
 
 	@Override
 	public void decreaseVolume() {
-		// TODO Auto-generated method stub
-		
+		volume--;
 	}
 
 }

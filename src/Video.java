@@ -58,29 +58,25 @@ public class Video extends Media implements Viewable, Playable{
 
 	@Override
 	public void increaseVolume() {
-		// TODO Auto-generated method stub
-		
+		volume++;
 	}
 
 
 	@Override
 	public void decreaseVolume() {
-		// TODO Auto-generated method stub
-		
+		volume--;
 	}
 
 
 	@Override
 	public void increaseBightness() {
-		// TODO Auto-generated method stub
-		
+		brightness++;
 	}
 
 
 	@Override
 	public void decreaseBightness() {
-		// TODO Auto-generated method stub
-		
+		brightness--;
 	}
 
 }

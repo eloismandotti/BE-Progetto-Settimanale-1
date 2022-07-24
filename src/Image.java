@@ -28,13 +28,11 @@ public class Image extends Media implements Viewable{
 	
 	@Override
 	public void increaseBightness() {
-		// TODO Auto-generated method stub
-		
+		brightness++;
 	}
 
 	@Override
 	public void decreaseBightness() {
-		// TODO Auto-generated method stub
-		
+		brightness--;
 	}
 }

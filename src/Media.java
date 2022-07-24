@@ -14,4 +14,16 @@ public abstract class Media {
 	protected void play() {
 	}
 	
+	public void increaseVolume() {
+	}
+
+	public void decreaseVolume() {
+	}
+
+	public void increaseBightness() {
+	}
+
+	public void decreaseBightness() {
+	}
+	
 }
